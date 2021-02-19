@@ -78,14 +78,14 @@ nav a:hover, a:focus{
 
   /*Your code here*/
   position: absolute;
-  top: 50px;
+  top: -50px;
 }
 
 /*Req 3b*/
 /*Write selector/rule property to position the skip class element*/
 .skip a:focus {
-  position: absolute;
-  bottom: 10px;
+  position: static;
+  bottom: 10px;   
 }
 
 /*Req 4*/
@@ -167,7 +167,7 @@ header{
   padding: 30px;
   /*Your code here:*/
   margin: auto;
-  top: 0; left: 0; bottom: 0; right: 0;
+  text-align: : center;
 }
 
 
